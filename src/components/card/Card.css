@@ -1,0 +1,48 @@
+.card {
+    display: flex;
+    padding: 1vh 1vw 1vh 1vw;
+    background-color: white;
+    height: 12vh;
+    margin: 2vh 0;
+    border-radius: 2vh;
+    border: 1px rgb(244 245 248) solid;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    /* border-style:groove */
+    
+}
+
+.cardId {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.cardTag {
+    display: flex;
+}
+
+.titleBox{
+    display: flex;
+    flex-grow: 1;
+}
+
+.titleBox img{
+    width: 15%;
+    padding-right: 1%;
+    /* border: 1px solid red; */
+    flex-shrink: 0;
+}
+
+.title {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 1.1rem;
+    max-height: 2.4rem;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+}
+
+.pIcon {
+    padding: 0 1vw 0 0;
+}
